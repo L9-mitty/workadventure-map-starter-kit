@@ -617,9 +617,21 @@
          "visible":true,
          "x":0,
          "y":0
+        }, 
+        {
+         "id":70,
+         "image":"tilesets\/campus1.jpeg",
+         "name":"Image Layer 1",
+         "offsetx":362.666666666667,
+         "offsety":487.666666666667,
+         "opacity":1,
+         "type":"imagelayer",
+         "visible":true,
+         "x":0,
+         "y":0
         }],
- "nextlayerid":68,
- "nextobjectid":23,
+ "nextlayerid":71,
+ "nextobjectid":24,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -648,7 +660,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.10.0",
+ "tiledversion":"1.10.1",
  "tileheight":32,
  "tilesets":[
         {
