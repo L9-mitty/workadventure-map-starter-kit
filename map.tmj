@@ -206,6 +206,18 @@
                  "width":31,
                  "x":0,
                  "y":0
+                }, 
+                {
+                 "id":70,
+                 "image":"tilesets\/campus1.jpeg",
+                 "name":"Image Layer 1",
+                 "offsetx":356,
+                 "offsety":485,
+                 "opacity":1,
+                 "type":"imagelayer",
+                 "visible":true,
+                 "x":0,
+                 "y":0
                 }],
          "name":"walls",
          "opacity":1,
@@ -326,18 +338,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"",
-                 "height":61.6672851518306,
-                 "id":12,
-                 "name":"clockPopup",
-                 "rotation":0,
-                 "visible":true,
-                 "width":93.7162209047986,
-                 "x":483.919325398621,
-                 "y":14.0269116471316
-                }, 
-                {
-                 "class":"area",
                  "height":128,
                  "id":13,
                  "name":"jitsiChillZone",
@@ -363,13 +363,13 @@
                          "value":1
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":32,
                  "y":96
                 }, 
                 {
-                 "class":"area",
                  "height":128,
                  "id":14,
                  "name":"silentZone",
@@ -380,13 +380,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":224,
                  "x":640,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":224,
                  "id":16,
                  "name":"jitsiMeetingRoom",
@@ -412,24 +412,13 @@
                          "value":1
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":768,
                  "y":224
                 }, 
                 {
-                 "class":"area",
-                 "height":39.6969696969697,
-                 "id":17,
-                 "name":"clock",
-                 "rotation":0,
-                 "visible":true,
-                 "width":50.2727272727272,
-                 "x":438.484848484849,
-                 "y":96.3333333333333
-                }, 
-                {
-                 "class":"area",
                  "height":64,
                  "id":18,
                  "name":"to-conference",
@@ -437,16 +426,16 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"conference.tmj#from-office"
+                         "value":"conference2.tmj#from-office"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":0,
                  "y":512
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":19,
                  "name":"from-conference",
@@ -457,10 +446,109 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":64,
                  "y":544
+                }, 
+                {
+                 "height":50.3636363636364,
+                 "id":20,
+                 "name":"board",
+                 "properties":[
+                        {
+                         "name":"dynamic",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"{{{ boardURL }}}"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to open a custom website"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":71.6060606060606,
+                 "x":802.484848484849,
+                 "y":59
+                }, 
+                {
+                 "height":61.6672851518306,
+                 "id":12,
+                 "name":"clockPopup",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":93.7162209047986,
+                 "x":483.919325398621,
+                 "y":14.0269116471316
+                }, 
+                {
+                 "height":39.6969696969697,
+                 "id":17,
+                 "name":"clock",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":50.2727272727272,
+                 "x":438.484848484849,
+                 "y":96.3333333333333
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":63,
+         "name":"configuration",
+         "objects":[
+                {
+                 "height":0,
+                 "id":21,
+                 "name":"boardURL",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"https:\/\/le-campus-numerique.fr\/"
+                        }, 
+                        {
+                         "name":"description",
+                         "type":"string",
+                         "value":"Test the website to embed with an iframe tester like https:\/\/iframetester.com\/"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Board URL"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":842.666666666667,
+                 "y":28
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -542,8 +630,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":63,
- "nextobjectid":20,
+ "nextlayerid":71,
+ "nextobjectid":24,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -572,7 +660,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.10.1",
  "tileheight":32,
  "tilesets":[
         {
@@ -717,6 +805,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":31
 }
