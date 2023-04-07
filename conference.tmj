@@ -304,7 +304,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"map2.tmj#from-conference"
+                         "value":"map.tmj#from-conference"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -508,7 +508,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.10.1",
+ "tiledversion":"1.10.0",
  "tileheight":32,
  "tilesets":[
         {
