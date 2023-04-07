@@ -650,27 +650,6 @@
          "tilecount":273,
          "tileheight":32,
          "tilewidth":32
-        }, 
-        {
-         "firstgid":3280,
-         "source":"tilesets\/campus_numerique.tsx"
-        }, 
-        {
-         "columns":256,
-         "firstgid":3280,
-         "image":"..\/..\/Downloads\/logo_campusnum_fond-blanc-1024x1024-199473454.jpeg",
-         "imageheight":1024,
-         "imagewidth":1024,
-         "margin":0,
-         "name":"campus",
-         "spacing":0,
-         "tilecount":0,
-         "tileheight":4,
-         "tilewidth":4
-        }, 
-        {
-         "firstgid":3280,
-         "source":"tilesets\/campus.tsx"
         }],
  "tilewidth":32,
  "type":"map",
