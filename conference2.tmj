@@ -164,6 +164,18 @@
                  "width":24,
                  "x":0,
                  "y":0
+                }, 
+                {
+                 "id":62,
+                 "image":"tilesets\/mitty.png",
+                 "name":"Mitty",
+                 "offsetx":218,
+                 "offsety":35,
+                 "opacity":1,
+                 "type":"imagelayer",
+                 "visible":true,
+                 "x":0,
+                 "y":0
                 }],
          "name":"walls",
          "opacity":1,
@@ -462,18 +474,6 @@
          "name":"above",
          "opacity":1,
          "type":"group",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "id":62,
-         "image":"..\/..\/Downloads\/mitty.png",
-         "name":"Mitty",
-         "offsetx":218,
-         "offsety":35,
-         "opacity":1,
-         "type":"imagelayer",
          "visible":true,
          "x":0,
          "y":0
