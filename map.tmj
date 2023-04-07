@@ -453,38 +453,6 @@
                  "y":544
                 }, 
                 {
-                 "height":50.3636363636364,
-                 "id":20,
-                 "name":"board",
-                 "properties":[
-                        {
-                         "name":"dynamic",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"{{{ boardURL }}}"
-                        }, 
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"openWebsiteTriggerMessage",
-                         "type":"string",
-                         "value":"Press SPACE or touch here to open a custom website"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":71.6060606060606,
-                 "x":802.484848484849,
-                 "y":59
-                }, 
-                {
                  "height":61.6672851518306,
                  "id":12,
                  "name":"clockPopup",
@@ -505,6 +473,38 @@
                  "width":50.2727272727272,
                  "x":438.484848484849,
                  "y":96.3333333333333
+                }, 
+                {
+                 "height":50.3636363636364,
+                 "id":20,
+                 "name":"board",
+                 "properties":[
+                        {
+                         "name":"dynamic",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/le-campus-numerique.fr\/"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to open a custom website"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":71.6060606060606,
+                 "x":802.484848484849,
+                 "y":59
                 }],
          "opacity":1,
          "type":"objectgroup",
