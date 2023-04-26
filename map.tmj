@@ -557,7 +557,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.youtube.com\/watch?v=zL19uMsnpSU"
+                         "value":"https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
