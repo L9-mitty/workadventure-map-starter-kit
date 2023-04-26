@@ -172,12 +172,17 @@
                 {
                  "height":60.8237605633803,
                  "id":1,
-                 "name":"pc8",
+                 "name":"action",
                  "properties":[
                         {
                          "name":"dynamic",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.google.fr\/webhp?igu=1"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -187,7 +192,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"ENIGME fhiruzehgfobrzibgvilrb"
+                         "value":"Bonjour, je suis la premi\u00e8re \u00e9nigme, malheureusement je ne sais pas encore quoi te faire faire de pertinent, un peu de patience..."
                         }],
                  "rotation":0,
                  "type":"area",
