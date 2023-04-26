@@ -545,8 +545,40 @@
                  "y":96.3333333333333
                 }, 
                 {
-                 "height":106.363636363636,
+                 "height":74.363636363636,
                  "id":20,
+                 "name":"pc1",
+                 "properties":[
+                        {
+                         "name":"dynamic",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.youtube.com\/watch?v=zL19uMsnpSU"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to use this computer"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":31.6060606060606,
+                 "x":526.484848484849,
+                 "y":356.333333333333
+                }, 
+                {
+                 "height":106.364,
+                 "id":24,
                  "name":"board",
                  "properties":[
                         {
@@ -572,9 +604,9 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":71.6060606060606,
-                 "x":802.484848484849,
-                 "y":59
+                 "width":71.6061,
+                 "x":804.19695,
+                 "y":60.1513333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -701,7 +733,7 @@
          "y":0
         }],
  "nextlayerid":73,
- "nextobjectid":24,
+ "nextobjectid":25,
  "orientation":"orthogonal",
  "properties":[
         {
