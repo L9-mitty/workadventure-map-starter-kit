@@ -52,7 +52,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"map.tmj"
+                 "value":"map.tmj#from-new"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -74,11 +74,37 @@
             811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811,
             811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811,
             811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811,
-            811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811,
-            811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811],
+            811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 786, 689, 689,
+            811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 811, 786, 689, 689],
          "height":15,
          "id":1,
          "name":"Tile Layer 1",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":15,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1126, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1151, 1126],
+         "height":15,
+         "id":11,
+         "name":"stairs",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
@@ -137,9 +163,53 @@
          "width":15,
          "x":0,
          "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":12,
+         "name":"bulle",
+         "objects":[
+                {
+                 "height":60.8237605633803,
+                 "id":1,
+                 "name":"pc8",
+                 "properties":[
+                        {
+                         "name":"dynamic",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"ENIGME fhiruzehgfobrzibgvilrb"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":52.1882929577465,
+                 "x":211.934022535211,
+                 "y":222.405021126761
+                }],
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"openWebsiteTriggerMessage",
+                 "type":"string",
+                 "value":"enigme fuihrzeofgierhzfjpez"
+                }],
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
         }],
- "nextlayerid":11,
- "nextobjectid":1,
+ "nextlayerid":13,
+ "nextobjectid":2,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.0",
