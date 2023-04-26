@@ -6,7 +6,7 @@
          "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -557,7 +557,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ"
+                         "value":"https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ&autoplay=1"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -607,6 +607,343 @@
                  "width":71.6061,
                  "x":804.19695,
                  "y":60.1513333333333
+                }, 
+                {
+                 "height":95.697,
+                 "id":25,
+                 "name":"pc2",
+                 "properties":[
+                        {
+                         "name":"dynamic",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.google.fr"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to use this computer"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":39.6061,
+                 "x":460.19695,
+                 "y":357.484833333333
+                }, 
+                {
+                 "height":95.697,
+                 "id":26,
+                 "name":"pc3",
+                 "properties":[
+                        {
+                         "name":"dynamic",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.google.fr"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to use this computer"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":39.6061,
+                 "x":394.863616666667,
+                 "y":360.1515
+                }, 
+                {
+                 "height":39.697,
+                 "id":27,
+                 "name":"pc4",
+                 "properties":[
+                        {
+                         "name":"dynamic",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.google.fr"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to use this computer"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":66.2727666666667,
+                 "x":386.863616666667,
+                 "y":193.484833333333
+                }, 
+                {
+                 "height":39.697,
+                 "id":28,
+                 "name":"pc5",
+                 "properties":[
+                        {
+                         "name":"dynamic",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.google.fr"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to use this computer"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":66.2728,
+                 "x":312.196933333333,
+                 "y":192.1515
+                }, 
+                {
+                 "height":39.697,
+                 "id":29,
+                 "name":"pc6",
+                 "properties":[
+                        {
+                         "name":"dynamic",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.google.fr"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to use this computer"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":66.2728,
+                 "x":312.196933333333,
+                 "y":126.818166666667
+                }, 
+                {
+                 "height":39.697,
+                 "id":30,
+                 "name":"pc7",
+                 "properties":[
+                        {
+                         "name":"dynamic",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.google.fr"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to use this computer"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":66.2728,
+                 "x":389.530266666667,
+                 "y":126.818166666667
+                }, 
+                {
+                 "height":39.697,
+                 "id":31,
+                 "name":"pc8",
+                 "properties":[
+                        {
+                         "name":"dynamic",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.google.fr"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to use this computer"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":66.2728,
+                 "x":501.530266666667,
+                 "y":122.818166666667
+                }, 
+                {
+                 "height":39.697,
+                 "id":32,
+                 "name":"pc9",
+                 "properties":[
+                        {
+                         "name":"dynamic",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.google.fr"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to use this computer"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":66.2728,
+                 "x":504.196933333333,
+                 "y":189.484833333333
+                }, 
+                {
+                 "height":39.697,
+                 "id":33,
+                 "name":"pc10",
+                 "properties":[
+                        {
+                         "name":"dynamic",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.google.fr"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to use this computer"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":66.2728,
+                 "x":576.196933333333,
+                 "y":188.1515
+                }, 
+                {
+                 "height":39.697,
+                 "id":34,
+                 "name":"pc11",
+                 "properties":[
+                        {
+                         "name":"dynamic",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.google.fr"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to use this computer"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":66.2728,
+                 "x":580.196933333333,
+                 "y":125.484833333333
+                }, 
+                {
+                 "height":32,
+                 "id":35,
+                 "name":"from-new",
+                 "properties":[
+                        {
+                         "name":"start",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":32,
+                 "x":286.666666666667,
+                 "y":94.6666666666666
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -733,7 +1070,7 @@
          "y":0
         }],
  "nextlayerid":73,
- "nextobjectid":25,
+ "nextobjectid":36,
  "orientation":"orthogonal",
  "properties":[
         {
