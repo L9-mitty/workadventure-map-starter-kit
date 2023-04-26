@@ -557,7 +557,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ&autoplay=1"
+                         "value":"https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -621,7 +621,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.google.fr"
+                         "value":"https:\/\/le-campus-numerique.fr\/"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -653,7 +653,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.google.fr"
+                         "value":"https:\/\/le-campus-numerique.fr\/"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -685,7 +685,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.google.fr"
+                         "value":"https:\/\/www.google.fr\/webhp?igu=1"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -717,7 +717,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.google.fr"
+                         "value":"https:\/\/www.google.fr\/webhp?igu=1"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -749,7 +749,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.google.fr"
+                         "value":"https:\/\/www.google.fr\/webhp?igu=1"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -781,7 +781,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.google.fr"
+                         "value":"https:\/\/www.google.fr\/webhp?igu=1"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -813,7 +813,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.google.fr"
+                         "value":"https:\/\/www.google.fr\/webhp?igu=1"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -845,7 +845,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.google.fr"
+                         "value":"https:\/\/www.google.fr\/webhp?igu=1"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -877,7 +877,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.google.fr"
+                         "value":"https:\/\/www.google.fr\/webhp?igu=1"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -909,7 +909,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.google.fr"
+                         "value":"https:\/\/www.google.fr\/webhp?igu=1"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
