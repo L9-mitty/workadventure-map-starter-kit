@@ -40,7 +40,7 @@ WA.onInit().then(() => {
     let helloWorldPopup: any = undefined;
 
     // Open the popup when we enter a given zone
-    WA.room.onEnter("test").subscribe(() => {
+    WA.room.area.onEnter("test").subscribe(() => {
         helloWorldPopup = WA.ui.openPopup("testPopup", 'Hello world!', [{
             label: "Close",
             className: "primary",
@@ -52,7 +52,7 @@ WA.onInit().then(() => {
     });
     
     // Close the popup when we leave the zone.
-    WA.room.onLeave("test").subscribe(() => {
+    WA.room.area.onLeave("test").subscribe(() => {
         helloWorldPopup.close();
     })
 })
