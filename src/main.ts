@@ -28,7 +28,7 @@ WA.onInit().then(() => {
         currentPopup = WA.ui.openPopup("testPop", "Sign me up!", []);
     })
 
-    WA.room.area.onLeave('clock').subscribe(closePopup)
+    WA.room.area.onLeave('test').subscribe(closePopup)
 
 }).catch(e => console.error(e));
 
