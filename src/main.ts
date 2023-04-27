@@ -24,6 +24,12 @@ WA.onInit().then(() => {
         console.log('Scripting API Extra ready');
     }).catch(e => console.error(e));
 
+    WA.room.area.onEnter('test').subscribe(() => {
+        currentPopup = WA.ui.openPopup("testPop", "Sign me up!", []);
+    })
+
+    WA.room.area.onLeave('clock').subscribe(closePopup)
+
 }).catch(e => console.error(e));
 
 function closePopup(){
