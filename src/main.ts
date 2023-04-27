@@ -33,4 +33,28 @@ function closePopup(){
     }
 }
 
+//let helloWorldPopup: any = undefined;
+
+// Waiting for the API to be ready
+WA.onInit().then(() => {
+    let helloWorldPopup;
+
+    // Open the popup when we enter a given zone
+    WA.room.onEnterLayer("test").subscribe(() => {
+        helloWorldPopup = WA.ui.openPopup("testPopup", 'Hello world!', [{
+            label: "Close",
+            className: "primary",
+            callback: (popup) => {
+                // Close the popup when the "Close" button is pressed.
+                popup.close();
+            }
+        }]);
+    });
+    
+    // Close the popup when we leave the zone.
+    WA.room.onLeaveLayer("test").subscribe(() => {
+        helloWorldPopup.close();
+    })
+}
+
 export {};

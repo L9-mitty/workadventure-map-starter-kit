@@ -948,24 +948,24 @@
                 {
                  "height":61,
                  "id":36,
-                 "name":"clockPopup",
+                 "name":"testPopup",
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":128,
-                 "x":147,
-                 "y":184
+                 "x":146,
+                 "y":228
                 }, 
                 {
                  "height":128,
                  "id":37,
-                 "name":"clock",
+                 "name":"test",
                  "rotation":0,
                  "type":"area",
                  "visible":true,
                  "width":192,
-                 "x":40,
-                 "y":181
+                 "x":109,
+                 "y":304
                 }],
          "opacity":1,
          "type":"objectgroup",
