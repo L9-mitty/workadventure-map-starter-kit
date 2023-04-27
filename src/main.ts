@@ -19,7 +19,7 @@ WA.onInit().then(() => {
 
     WA.room.area.onLeave('clock').subscribe(closePopup)
 
-    let helloWorldPopup;
+    let helloWorldPopup: any = undefined;
 
     // Open the popup when we enter a given zone
     WA.room.onEnterLayer("test").subscribe(() => {
