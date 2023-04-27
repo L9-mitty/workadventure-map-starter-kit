@@ -55,6 +55,6 @@ WA.onInit().then(() => {
     WA.room.onLeaveLayer("test").subscribe(() => {
         helloWorldPopup.close();
     })
-}
+})
 
 export {};
