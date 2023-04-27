@@ -948,9 +948,9 @@
                 {
                  "height":61,
                  "id":36,
-                 "name":"testPop",
+                 "name":"clockPopup",
                  "rotation":0,
-                 "type":"area",
+                 "type":"",
                  "visible":true,
                  "width":128,
                  "x":147,
@@ -959,7 +959,7 @@
                 {
                  "height":128,
                  "id":37,
-                 "name":"test",
+                 "name":"clock",
                  "rotation":0,
                  "type":"area",
                  "visible":true,
