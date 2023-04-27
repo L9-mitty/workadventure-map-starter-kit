@@ -37,7 +37,7 @@ function closePopup(){
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
-    let helloWorldPopup;
+    let helloWorldPopup: any = undefined;
 
     // Open the popup when we enter a given zone
     WA.room.onEnterLayer("test").subscribe(() => {
