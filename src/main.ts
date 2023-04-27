@@ -44,7 +44,7 @@ WA.onInit().then(() => {
         helloWorldPopup = WA.ui.openPopup("testPopup", 'Hello world!', [{
             label: "Close",
             className: "primary",
-            callback: (popup) => {
+            callback: (popup: { close: () => void; }) => {
                 // Close the popup when the "Close" button is pressed.
                 popup.close();
             }
