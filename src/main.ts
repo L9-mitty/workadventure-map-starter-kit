@@ -2,7 +2,7 @@
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
-console.log('Script started successfully');
+console.log('Script started successfully'); 
 
 let currentPopup: any = undefined;
 
@@ -32,29 +32,5 @@ function closePopup(){
         currentPopup = undefined;
     }
 }
-
-//let helloWorldPopup: any = undefined;
-
-// Waiting for the API to be ready
-WA.onInit().then(() => {
-    let helloWorldPopup: any = undefined;
-
-    // Open the popup when we enter a given zone
-    WA.room.area.onEnter("test").subscribe(() => {
-        helloWorldPopup = WA.ui.openPopup("testPopup", 'Hello world!', [{
-            label: "Close",
-            className: "primary",
-            callback: (popup: { close: () => void; }) => {
-                // Close the popup when the "Close" button is pressed.
-                popup.close();
-            }
-        }]);
-    });
-    
-    // Close the popup when we leave the zone.
-    WA.room.area.onLeave("test").subscribe(() => {
-        helloWorldPopup.close();
-    })
-})
 
 export {};
