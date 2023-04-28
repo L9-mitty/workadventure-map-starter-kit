@@ -849,9 +849,9 @@
                          "value":true
                         }, 
                         {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/www.google.fr\/webhp?igu=1"
+                         "name":"htmlTest",
+                         "type":"file",
+                         "value":"..\/cours.html"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -881,9 +881,9 @@
                          "value":true
                         }, 
                         {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/www.google.fr\/webhp?igu=1"
+                         "name":"htmlTest",
+                         "type":"file",
+                         "value":"..\/cours.html"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -904,6 +904,38 @@
                 }, 
                 {
                  "height":39.697,
+                 "id":33,
+                 "name":"pc10",
+                 "properties":[
+                        {
+                         "name":"dynamic",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"htmlTest",
+                         "type":"file",
+                         "value":"..\/cours.html"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to use this computer"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":66.2728,
+                 "x":576.196933333333,
+                 "y":188.1515
+                }, 
+                {
+                 "height":39.697,
                  "id":34,
                  "name":"pc11",
                  "properties":[
@@ -913,9 +945,9 @@
                          "value":true
                         }, 
                         {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/www.google.fr\/webhp?igu=1"
+                         "name":"htmlTest",
+                         "type":"file",
+                         "value":"..\/cours.html"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -974,21 +1006,15 @@
                  "y":304
                 }, 
                 {
-                 "height":32,
-                 "id":38,
-                 "name":"from-new",
-                 "properties":[
-                        {
-                         "name":"start",
-                         "type":"bool",
-                         "value":true
-                        }],
+                 "height":0,
+                 "id":41,
+                 "name":"",
                  "rotation":0,
-                 "type":"area",
+                 "type":"",
                  "visible":true,
-                 "width":32,
-                 "x":289,
-                 "y":95
+                 "width":0,
+                 "x":686.666666666667,
+                 "y":189.333333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1114,8 +1140,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":74,
- "nextobjectid":39,
+ "nextlayerid":73,
+ "nextobjectid":42,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -1144,7 +1170,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.10.0",
+ "tiledversion":"1.10.1",
  "tileheight":32,
  "tilesets":[
         {
