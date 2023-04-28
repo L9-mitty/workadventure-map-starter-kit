@@ -811,9 +811,9 @@
                          "value":true
                         }, 
                         {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/www.google.fr\/webhp?igu=1"
+                         "name":"htmlTest",
+                         "type":"file",
+                         "value":"cours.html"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -843,9 +843,9 @@
                          "value":true
                         }, 
                         {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/www.google.fr\/webhp?igu=1"
+                         "name":"htmlTest",
+                         "type":"file",
+                         "value":"cours.html"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -875,9 +875,9 @@
                          "value":true
                         }, 
                         {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/www.google.fr\/webhp?igu=1"
+                         "name":"htmlTest",
+                         "type":"file",
+                         "value":"cours.html"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -907,9 +907,9 @@
                          "value":true
                         }, 
                         {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/www.google.fr\/webhp?igu=1"
+                         "name":"htmlTest",
+                         "type":"file",
+                         "value":"cours.html"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -966,6 +966,17 @@
                  "width":192,
                  "x":109,
                  "y":304
+                }, 
+                {
+                 "height":0,
+                 "id":41,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":686.666666666667,
+                 "y":189.333333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1092,7 +1103,7 @@
          "y":0
         }],
  "nextlayerid":73,
- "nextobjectid":38,
+ "nextobjectid":42,
  "orientation":"orthogonal",
  "properties":[
         {
