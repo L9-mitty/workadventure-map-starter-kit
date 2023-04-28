@@ -813,7 +813,7 @@
                         {
                          "name":"htmlTest",
                          "type":"file",
-                         "value":"cours.html"
+                         "value":"..\/cours.html"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -845,7 +845,7 @@
                         {
                          "name":"htmlTest",
                          "type":"file",
-                         "value":"cours.html"
+                         "value":"..\/cours.html"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -877,7 +877,7 @@
                         {
                          "name":"htmlTest",
                          "type":"file",
-                         "value":"cours.html"
+                         "value":"..\/cours.html"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -909,7 +909,7 @@
                         {
                          "name":"htmlTest",
                          "type":"file",
-                         "value":"cours.html"
+                         "value":"..\/cours.html"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
