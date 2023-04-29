@@ -11,10 +11,11 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ', WA.player.tags)
 
-    const today = new Date();
-    const time = today.getHours() + ":" + today.getMinutes();
-    timeR = WA.ui.openPopup("TimeRemains", time + " left..", []);
-
+    WA.room.area.onEnter('clock').subscribe(() => {
+        const today = new Date();
+        const time = today.getHours() + ":" + today.getMinutes();
+        timeR = WA.ui.openPopup("TimeRemains", time + " left..", []);
+    })
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
