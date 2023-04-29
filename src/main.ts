@@ -3,7 +3,7 @@
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 console.log('Script started successfully'); 
-let currentPopup: any = undefined;
+let currentPopup = undefined;
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
@@ -12,6 +12,7 @@ WA.onInit().then(() => {
 
     WA.room.area.onEnter('clock').subscribe(() => {
         console.log('JGREGFORSVOHFEHOVHOFDEGHFHEODHFHG');
+        console.error(import.meta.url)
         const today = new Date();
         const time = today.getHours() + ":" + today.getMinutes();
         currentPopup = WA.ui.openPopup("clockPopup", "It's " + time, []);
