@@ -9,7 +9,7 @@ let timeR: any = undefined;
 // Waiting for the API to be ready
 WA.onInit().then(() => {
     console.log('Scripting API ready');
-    console.log('Player tags: ',WA.player.tags)
+    console.log('Player tags: ', WA.player.tags)
 
     const today = new Date();
     const time = today.getHours() + ":" + today.getMinutes();
