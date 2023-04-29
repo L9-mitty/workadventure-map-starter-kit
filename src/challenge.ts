@@ -24,4 +24,11 @@ WA.onInit().then(() => {
 
 }).catch(e => console.error(e));
 
+function closePopup(){
+    if (timeR !== undefined) {
+        timeR.close();
+        timeR = undefined;
+    }
+}
+
 export {};
