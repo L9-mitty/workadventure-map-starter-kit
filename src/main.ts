@@ -12,6 +12,7 @@ WA.onInit().then(() => {
     console.log('Player tags: ',WA.player.tags)
 
     WA.room.area.onEnter('clock').subscribe(() => {
+        console.log('JGREGFORSVOHFEHOVHOFDEGHFHEODHFHG');
         const today = new Date();
         const time = today.getHours() + ":" + today.getMinutes();
         currentPopup = WA.ui.openPopup("clockPopup", "It's " + time, []);
