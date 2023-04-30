@@ -35,7 +35,7 @@ module.exports = {
         extensions: [ '.tsx', '.ts', '.js' ],
     },
     output: {
-        filename: 'scriptmain.js',
+        filename: '[name].js',
         path: path.resolve(__dirname, 'dist'),
         publicPath: '/'
     }
@@ -74,7 +74,7 @@ module.exports = {
         extensions: [ '.tsx', '.ts', '.js' ],
     },
     output: {
-        filename: 'scriptchallenge.js',
+        filename: '[name].js',
         path: path.resolve(__dirname, 'dist'),
         publicPath: '/'
     }
