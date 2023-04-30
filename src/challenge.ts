@@ -2,7 +2,7 @@
 /// <reference path="../node_modules/@workadventure/iframe-api-typings/iframe_api.d.ts" />
 //import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 //import { time } from "console";
-
+console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa");
 console.log('Script started successfully'); 
 const questions = [{"question": "question 1/3", "buttons":
                                                     [{label:"A", className: "primary", callback: winPoint},
