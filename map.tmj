@@ -559,6 +559,50 @@
                  "width":69,
                  "x":511,
                  "y":352.19385
+                }, 
+                {
+                 "height":356,
+                 "id":23,
+                 "name":"jitsiConference",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"Conference"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":225.757666666667,
+                 "x":734.4545,
+                 "y":93.3333333333333
+                }, 
+                {
+                 "height":95.697,
+                 "id":24,
+                 "name":"info",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":60.9393666666666,
+                 "x":670.86365,
+                 "y":154.818166666667
+                }, 
+                {
+                 "height":124.333966666667,
+                 "id":25,
+                 "name":"infoPop",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":117.7162,
+                 "x":719.808566666666,
+                 "y":117.16635
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -641,7 +685,7 @@
          "y":0
         }],
  "nextlayerid":67,
- "nextobjectid":23,
+ "nextobjectid":26,
  "orientation":"orthogonal",
  "properties":[
         {
