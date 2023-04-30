@@ -332,7 +332,13 @@
                      "visible":true,
                      "x":0,
                      "y":0
-                    }
+                    },
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }],
          "tilewidth":32
         }, 
@@ -348,6 +354,10 @@
          "tilecount":273,
          "tileheight":32,
          "tilewidth":32
+        }, 
+        {
+         "firstgid":1286,
+         "source":":\/automap-tiles.tsx"
         }],
  "tilewidth":32,
  "type":"map",
