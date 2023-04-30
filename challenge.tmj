@@ -15,7 +15,7 @@
             1003, 1003, 1003, 1003, 1003, 1003, 0, 0, 0, 1003, 1003, 1003, 1003, 1003, 1003],
          "height":10,
          "id":6,
-         "name":"collision",
+         "name":"collisions",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
