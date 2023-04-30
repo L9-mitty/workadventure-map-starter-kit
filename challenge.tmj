@@ -244,7 +244,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"challenge.ts"
+         "value":"scriptchallenge.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.10.1",
