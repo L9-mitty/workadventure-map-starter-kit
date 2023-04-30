@@ -1,7 +1,7 @@
 /// <reference types="@workadventure/iframe-api-typings" />
 /// <reference path="../node_modules/@workadventure/iframe-api-typings/iframe_api.d.ts" />
-import { bootstrapExtra } from "@workadventure/scripting-api-extra";
-import { time } from "console";
+//import { bootstrapExtra } from "@workadventure/scripting-api-extra";
+//import { time } from "console";
 
 console.log('Script started successfully'); 
 const questions = [{"question": "question 1/3", "buttons":
@@ -15,7 +15,7 @@ const questions = [{"question": "question 1/3", "buttons":
                                                     {label:"F", className: "primary", callback: lose}]}
                     ]
 // timeRemains
-let timeR: any = undefined;
+//let timeR: any = undefined;
 // const start_time = new Date();
 // const end_time = new Date();
 
