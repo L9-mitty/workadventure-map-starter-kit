@@ -271,6 +271,17 @@
                  "width":133,
                  "x":505,
                  "y":1.5
+                }, 
+                {
+                 "height":187,
+                 "id":3,
+                 "name":"questionArea",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":223,
+                 "x":227,
+                 "y":194.5
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -304,17 +315,6 @@
                  "width":188,
                  "x":240,
                  "y":497.5
-                }, 
-                {
-                 "height":187,
-                 "id":3,
-                 "name":"questionArea",
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":223,
-                 "x":227,
-                 "y":194.5
                 }, 
                 {
                  "height":91,
