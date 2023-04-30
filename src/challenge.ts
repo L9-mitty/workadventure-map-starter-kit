@@ -1,7 +1,7 @@
 /// <reference types="@workadventure/iframe-api-typings" />
-
-import { bootstrapExtra } from "@workadventure/scripting-api-extra";
-import { time } from "console";
+/// <reference path="../node_modules/@workadventure/iframe-api-typings/iframe_api.d.ts" />
+//import { bootstrapExtra } from "@workadventure/scripting-api-extra";
+//import { time } from "console";
 
 console.log('Script started successfully'); 
 const questions = [{"question": "question 1/3", "buttons":
@@ -15,7 +15,7 @@ const questions = [{"question": "question 1/3", "buttons":
                                                     {label:"F", className: "primary", callback: lose}]}
                     ]
 // timeRemains
-let timeR: any = undefined;
+//let timeR: any = undefined;
 // const start_time = new Date();
 // const end_time = new Date();
 
@@ -37,11 +37,21 @@ let inter: any;
 function show_question(cmpt: number) {
     if(cmpt > questions.length - 1) {
         WA.player.state.saveVariable("completed", 1);
+        unblock();
         return;
     }
     const question: any = questions[cmpt].question;
     const btn: any = questions[cmpt].buttons;
     question_pop = WA.ui.openPopup("questionArea", question, btn);
+}
+
+function unblock(){
+    let check:any = WA.player.state.score;
+    if (check>=20){
+        WA.room.hideLayer("collisionLevel1");
+        WA.room.hideLayer("wallLevel1");
+        WA.room.showLayer("congrats1");
+    }
 }
 
 function winPoint(){
@@ -68,7 +78,7 @@ function change_popup() {
         timer_pop.close();
         timer_pop = WA.ui.openPopup("TimeRemains",minutes + ':' + seconds + '\nleft..',[]);
     } else if(cmpt > questions.length - 1) {
-        timer_pop = WA.ui.openPopup("TimeRemains", "Terminée ! Il restait " + minutes + ':' + seconds,[]);
+        timer_pop = WA.ui.openPopup("TimeRemains", "Terminé ! Il restait " + minutes + ':' + seconds,[]);
         clearInterval(inter);
     } else if(!(seconds + minutes)) {
         timer_pop = WA.ui.openPopup("TimeRemains", "Temps écoulé..",[]);
