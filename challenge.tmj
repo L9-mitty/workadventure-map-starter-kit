@@ -326,6 +326,40 @@
                  "width":133,
                  "x":505,
                  "y":1.5
+                }, 
+                {
+                 "height":32,
+                 "id":6,
+                 "name":"from-office",
+                 "properties":[
+                        {
+                         "name":"start",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":32,
+                 "x":321,
+                 "y":550
+                }, 
+                {
+                 "height":48,
+                 "id":7,
+                 "name":"to-office",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"map.tmj#from-challenge"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":96,
+                 "x":287,
+                 "y":593
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -375,7 +409,7 @@
          "y":0
         }],
  "nextlayerid":15,
- "nextobjectid":6,
+ "nextobjectid":8,
  "orientation":"orthogonal",
  "properties":[
         {
