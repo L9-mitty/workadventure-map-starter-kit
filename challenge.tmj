@@ -260,7 +260,18 @@
          "draworder":"topdown",
          "id":6,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "height":60,
+                 "id":5,
+                 "name":"TimeRemains",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":133,
+                 "x":505,
+                 "y":1.5
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -315,17 +326,6 @@
                  "width":188,
                  "x":243,
                  "y":27.5
-                }, 
-                {
-                 "height":60,
-                 "id":5,
-                 "name":"TimeRemains",
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":133,
-                 "x":505,
-                 "y":1.5
                 }, 
                 {
                  "height":32,
