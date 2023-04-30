@@ -3,7 +3,7 @@
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 console.log('Script started successfully'); 
-let currentPopup = undefined;
+let currentPopup: any = undefined;
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
@@ -25,7 +25,7 @@ WA.onInit().then(() => {
         console.log('Scripting API Extra ready');
     }).catch(e => console.error(e));
 
-}).catch(e => console.error(e));
+}).catch(e=> console.error(e));
 
 function closePopup(){
     if (currentPopup !== undefined) {
