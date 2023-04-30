@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: 'development',
-    entry: './src/index.ts',
+    entry: './src/main.ts',
     devtool: 'inline-source-map',
     devServer: {
         // The test webserver serves static files from the root directory.
