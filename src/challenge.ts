@@ -51,17 +51,20 @@ function unblock(){
         WA.room.hideLayer("collisionLevel1");
         WA.room.hideLayer("wallLevel1");
         WA.room.showLayer("congrats1");
+        WA.room.showLayer("congrats2");
     }
 }
 
 function winPoint(){
     let temp:any = WA.player.state.loadVariable("score");
     temp += 10;
+    WA.room.showLayer("points");
     WA.player.state.saveVariable("score", temp);
     console.log(WA.player.state.score);
     question_pop.close();
     cmpt++;
     show_question(cmpt);
+    WA.room.hideLayer("points");
 }
 
 function lose(){
